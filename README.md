@@ -2869,8 +2869,19 @@ and that alone means more than any donation. Enjoy the packs! 🌍*
 
 ________________________________________
 📄 License
-Open-source.
-MIT or GPL 3 depending on your choice.
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+Copyright (c) 2024-2026 [Your Name or Alias]
+
+This project is licensed under Creative Commons CC BY-NC-SA 4.0.
+
+    Attribution (BY): You must give appropriate credit to the author.
+
+    Non-Commercial (NC): No commercial use of the work is permitted.
+
+    Share-Alike (SA): If you modify the work, you must distribute your contributions under the same license.
+
+Link to the full license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ________________________________________
 🎉 Thank you for using these packs
 Your simple “hi” means more than you think.
