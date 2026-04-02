@@ -1,0 +1,28 @@
+Ce pack de langue (**#SPANISH.txt**) est également de très bonne qualité, mais il présente des différences notables par rapport au précédent (**SpanishLA.txt**). Si vous devez choisir entre les deux, voici les points clés à retenir :
+
+### 1. Terminologie : "Item" vs "Elemento"
+C'est la différence la plus flagrante entre les deux fichiers :
+* [cite_start]**SpanishLA.txt** utilise quasi systématiquement le mot **"Item"** (ex: *Propiedades del item* [cite: 66466][cite_start], *Items multimedia* [cite: 66465]). C'est le terme technique brut de Reaper, très utilisé par les utilisateurs qui regardent des tutoriels en anglais.
+* [cite_start]**#SPANISH.txt** privilégie souvent **"Elemento"** (ex: *Propiedades del elemento* [cite: 33746][cite_start], *Elementos multimedia* [cite: 33745]). C'est une traduction plus "pure" en espagnol, mais qui peut parfois surprendre les habitués de Reaper.
+
+### 2. Précision des fonctions
+Le pack **#SPANISH.txt** semble être légèrement plus précis ou moderne sur certaines fonctions spécifiques :
+* [cite_start]**Metronome :** Il utilise **"Patrón de metrónomo"** [cite: 33743][cite_start], là où l'autre utilise "Patrón de clic"[cite: 66463]. Le terme "Metrónomo" est plus universel en production musicale.
+* [cite_start]**Snap (Aimantage) :** Il utilise **"Activar ajuste"** [cite: 33745] (Ajuster)[cite_start], tandis que l'autre utilise "Activar chasquido" [cite: 66465] (une traduction littérale de *Snap* qui sonne un peu étrange en audio).
+
+### 3. Interface et Layouts
+[cite_start]Le fichier **#SPANISH.txt** contient des traductions très détaillées pour les **thèmes et les layouts** (Design A, B, C, MCP, TCP)[cite: 61836, 61843]. Cela suggère qu'il est optimisé pour les versions récentes de Reaper (comme la v6 ou v7) qui utilisent des panneaux de contrôle complexes.
+
+### 4. Comparaison directe de termes
+| Fonction | #SPANISH.txt (Ce pack) | SpanishLA.txt (Précédent) |
+| :--- | :--- | :--- |
+| **Buffer Size** | [cite_start]Tamaño de búfer [cite: 33742] | [cite_start]Tamaño de bloque [cite: 66463] |
+| **Sampling Rate** | [cite_start]Frecuencia de muestreo [cite: 33742] | [cite_start]Frecuencia de muestreo [cite: 66463] |
+| **Grid follow click** | [cite_start]La cuadrícula sigue el patrón de metrónomo [cite: 33746] | [cite_start]La cuadrícula sigue el patrón de clics [cite: 66466] |
+| **Docker** | [cite_start]Acoplador [cite: 33745] | [cite_start]Contenedor [cite: 66465] |
+
+### Verdict
+* **Choisissez #SPANISH.txt** si vous voulez une traduction plus **élégante** et "musicale" (utilisation de *Metrónomo*, *Elemento*, *Acoplador*). C'est souvent le choix des puristes.
+* **Choisissez SpanishLA.txt** si vous préférez rester proche des **tutoriels anglais** (utilisation de *Item*, *Clic*, *Contenedor*), car c'est un langage plus "hybride" et souvent plus facile pour ceux qui naviguent entre l'anglais et l'espagnol.
+
+[cite_start]Les deux sont techniquement irréprochables et complets[cite: 35740, 66462]. Mon conseil : installez **#SPANISH.txt**, car la traduction de *Snap* par "Ajuste" au lieu de "Chasquido" est un signe de meilleure compréhension du logiciel.
