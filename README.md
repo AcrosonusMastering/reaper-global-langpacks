@@ -2871,7 +2871,7 @@ ________________________________________
 📄 License
 Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
-Copyright (c) 2024-2026 [Your Name or Alias]
+Copyright (c) 2024-2026 Acrosonus Mastering
 
 This project is licensed under Creative Commons CC BY-NC-SA 4.0.
 
