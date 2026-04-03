@@ -1,7 +1,6 @@
 ### 📥 To download the language packs (Section RELEASES)]   ==========>>>>>>>
 (https://github.com/ton-pseudo/ton-repo/releases/latest)
-
-(Click on your language to read the full README in your own language)
+Arabic, Punjabi, Bengali, Hindi, Thai (Custom scale 1.2), Vietnamese (Custom scale 1.15), Chinese (Simplified & Traditional), Japanese, Korean, French, Spanish, Italian, Portuguese / Brazilian, Turkish, Swahili, Indonesian, Klingon (Special bonus for the community!)
 
 ________________________________________
 💬 Support the Project (Without Money)
@@ -11,6 +10,7 @@ If you want to support this project, just send me a “hi” + your country on I
 It helps me see where these packs are being used around the world —
 and that alone means more than any donation. Enjoy the packs! 🌍*
 ________________________________________
+(Click on your language to read the full README in your own language)
 
 👤 About the Creator
 I’m the founder of Acrosonus Mastering Studio, previously specializing in mastering (pop, rock, country, Bollywood).
