@@ -3,6 +3,15 @@
 
 (Click on your language to read the full README in your own language)
 
+________________________________________
+💬 Support the Project (Without Money)
+*I don’t have a “buy me a coffee” page…
+I don’t even drink coffee 😄
+If you want to support this project, just send me a “hi” + your country on Instagram.
+It helps me see where these packs are being used around the world —
+and that alone means more than any donation. Enjoy the packs! 🌍*
+________________________________________
+
 👤 About the Creator
 I’m the founder of Acrosonus Mastering Studio, previously specializing in mastering (pop, rock, country, Bollywood).
 I stepped away from the commercial side to focus on what truly matters to me:
@@ -2862,13 +2871,7 @@ This pack includes a full translation in Klingon (tlhIngan Hol).
 **This is likely the first fully translated commercial software UI in Klingon ever created.**
 A small tribute for Star Trek fans and conlang enthusiasts.
 Qapla’! ⚔️
-________________________________________
-💬 Support the Project (Without Money)
-*I don’t have a “buy me a coffee” page…
-I don’t even drink coffee 😄
-If you want to support this project, just send me a “hi” + your country on Instagram.
-It helps me see where these packs are being used around the world —
-and that alone means more than any donation. Enjoy the packs! 🌍*
+
 
 ________________________________________
 📄 License
