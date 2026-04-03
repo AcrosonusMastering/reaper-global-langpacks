@@ -9,7 +9,7 @@ I don’t even drink coffee 😄
 If you want to support this project, just send me a “hi” + your country on Instagram.
 It helps me see where these packs are being used around the world —
 and that alone means more than any donation. Enjoy the packs! 🌍*
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/acrosonus_mastering_studio/))
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/acrosonus_mastering_studio/)
 ________________________________________
 (Click on your language to read the full README in your own language)
 
