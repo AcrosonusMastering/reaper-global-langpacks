@@ -1,6 +1,6 @@
 ### 📥 To download the language packs (Section RELEASES)]   ==========>>>>>>>
 (https://github.com/ton-pseudo/ton-repo/releases/latest)
-Arabic, Punjabi, Bengali, Hindi, Thai (Custom scale 1.2), Vietnamese (Custom scale 1.15), Chinese (Simplified & Traditional), Japanese, Korean, French, Spanish, Italian, Portuguese / Brazilian, Turkish, Swahili, Indonesian, Klingon (Special bonus for the community!)
+Arabic, Punjabi, Bengali, Hindi, Thai, Vietnamese, Chinese (Simplified & Traditional), Japanese, Korean, French, Spanish, Italian, Portuguese / Brazilian, Turkish, Swahili, Indonesian, Klingon (Special bonus for the community!)
 
 ________________________________________
 💬 Support the Project (Without Money)
@@ -9,6 +9,7 @@ I don’t even drink coffee 😄
 If you want to support this project, just send me a “hi” + your country on Instagram.
 It helps me see where these packs are being used around the world —
 and that alone means more than any donation. Enjoy the packs! 🌍*
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/acrosonus_mastering_studio/))
 ________________________________________
 (Click on your language to read the full README in your own language)
 
