@@ -1,5 +1,5 @@
 ### 📥 To download the language packs (Section RELEASES)]   ==========>>>>>>>
-(https://github.com/ton-pseudo/ton-repo/releases/latest)
+([https://github.com/ton-pseudo/ton-repo/releases/latest](https://github.com/AcrosonusMastering/reaper-global-langpacks/releases/tag/1.0.0))
 Arabic, Punjabi, Bengali, Hindi, Thai, Vietnamese, Chinese (Simplified & Traditional), Japanese, Korean, French, Spanish, Italian, Portuguese / Brazilian, Turkish, Swahili, Indonesian, Klingon (Special bonus for the community!)
 
 ________________________________________
