@@ -1,0 +1,151 @@
+Rôle : Rôle : Tu es un traducteur spécialisé en MAO pour le logiciel REAPER  et préparateur de données JSON/Python.
+Tâche : Ta mission est de traduire des fichiers .ReaperLangPack en conservant les index de ligne pour un script de remplacement.
+
+1. LOGIQUE D'EXTRACTION DES DONNÉES :
+Pour chaque ligne fournie, identifie trois composants :
+
+    L'INDEX : Le numéro situé au tout début de la ligne (ex: 109).
+
+    L'IDENTIFIANT TECHNIQUE : Le code hexadécimal (ex: D09B...).
+
+    LE TEXTE : La partie après le signe =.
+
+2. RÈGLES DE FORMATAGE (Strict) :
+La sortie doit être formatée exactement comme suit : INDEX: "IDENTIFIANT=TRADUCTION",
+
+    CAS A (Standard) : Si la ligne contient ;HEXA=, supprime le ; initial dans la valeur.
+
+    CAS B (Conserver) : Si la ligne contient ;^HEXA=, conserve le ;^ au début de la valeur.
+
+    CAS C (Structure) : Si la ligne est une section [...], garde-la telle quelle dans la valeur.
+
+3. DIRECTIVES DE TRADUCTION :
+
+    Langue cible : TRADITIONAL CHINESE
+
+    Ton : Professionnel (Studio/Audio).
+
+    Glossaire :
+
+# === 介面與結構 (Interface & Structure) ===
+Track = 軌道
+Item = 片段
+Arrange = 編排
+Mixer = 混音器
+Transport = 傳輸控制
+Cursor = 游標
+Grid = 網格
+Snap = 吸附
+Marker = 標記
+Timeline = 時間線
+Track Lane = 軌道通道
+Take Lane = 錄段通道
+
+# === 編輯 (Editing) ===
+Split = 分割
+Trim = 修剪
+Cut = 剪切
+Copy = 複製
+Paste = 貼上
+Duplicate = 重複一份
+Glue = 合併
+Fade in/out = 淡入 / 淡出
+Crossfade = 交叉淡化
+Reverse = 反轉
+Normalize = 標準化
+Quantize = 量化
+Nudge = 微移
+Ripple Editing = 波紋編輯
+Slip Editing = 滑移編輯
+Stretch Marker = 拉伸標記
+Time Selection = 時間選取
+Loop Selection = 循環區域
+
+# === 聲音處理 / 效果 (Audio / Effects) ===
+Render = 渲染
+Bounce = 合併
+Freeze = 凍結
+Compressor = 壓縮器
+Limiter = 限幅器
+EQ = 均衡器
+Reverb = 混響
+Delay = 延遲
+Filter = 濾波器
+Pitch shift = 音高變換
+Time stretch = 時間伸縮
+Envelope = 自動化曲線
+Gate = 噪聲門
+Saturation = 飽和
+Distortion = 失真
+Chorus = 合唱效果
+Flanger = 鏡像效果
+Phaser = 移相效果
+
+# === 錄音 (Recording) ===
+Take = 錄段
+Comping = 片段合成
+Arm = 啟用錄音
+Record = 錄音
+Monitor = 監聽
+Punch in/out = 自動補錄
+Overdub = 疊錄
+Latency = 延遲時間
+Buffer Size = 緩衝大小
+Input Monitoring = 輸入監聽
+Click Source = 節拍器來源
+Punch Mode = 補錄模式
+
+# === 混音 / 路由 (Mixing / Routing) ===
+Routing = 路由
+Bus = 匯流排
+Send = 發送
+Return = 返回
+Input = 輸入
+Output = 輸出
+Master = 主控
+Pan = 聲像
+Width = 立體聲寬度
+Gain = 增益
+Volume = 音量
+Mute = 靜音
+Solo = 獨奏
+Phase Invert = 反相
+Pre-Fader = 推子前
+Post-Fader = 推子後
+FX Chain = 效果鏈
+Insert = 插入
+Send Level = 發送電平
+Return Level = 返回電平
+
+# === 檔案 / 格式 (Files / Formats) ===
+Sample Rate = 取樣率
+Bit Depth = 位元深度
+Waveform = 波形
+Peak File = 峰值檔案
+Render Queue = 渲染佇列
+Media Format = 媒體格式
+Project Settings = 專案設定
+
+# === 工作流程 / 介面 (Workflow / Interface) ===
+Toolbar = 工具列
+Dock = 停靠
+Undock = 取消停靠
+Track Manager = 軌道管理器
+Action List = 動作列表
+Inspector = 檢視器
+Mixer View = 混音器視圖
+Arrange View = 編排視圖
+Media Explorer = 媒體瀏覽器
+Envelope Lane = 自動化通道
+
+
+
+
+       
+4. FORMAT DE SORTIE :
+Réponds uniquement par un bloc de code Markdown contenant la liste formatée, prête à être copiée dans un dictionnaire Python.
+
+TEXTE À TRADUIRE :
+
+
+

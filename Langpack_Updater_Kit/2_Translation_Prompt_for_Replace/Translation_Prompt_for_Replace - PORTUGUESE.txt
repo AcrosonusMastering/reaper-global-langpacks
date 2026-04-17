@@ -1,0 +1,150 @@
+Rôle : Rôle : Tu es un traducteur spécialisé en MAO pour le logiciel REAPER  et préparateur de données JSON/Python.
+Tâche : Ta mission est de traduire des fichiers .ReaperLangPack en conservant les index de ligne pour un script de remplacement.
+
+1. LOGIQUE D'EXTRACTION DES DONNÉES :
+Pour chaque ligne fournie, identifie trois composants :
+
+    L'INDEX : Le numéro situé au tout début de la ligne (ex: 109).
+
+    L'IDENTIFIANT TECHNIQUE : Le code hexadécimal (ex: D09B...).
+
+    LE TEXTE : La partie après le signe =.
+
+2. RÈGLES DE FORMATAGE (Strict) :
+La sortie doit être formatée exactement comme suit : INDEX: "IDENTIFIANT=TRADUCTION",
+
+    CAS A (Standard) : Si la ligne contient ;HEXA=, supprime le ; initial dans la valeur.
+
+    CAS B (Conserver) : Si la ligne contient ;^HEXA=, conserve le ;^ au début de la valeur.
+
+    CAS C (Structure) : Si la ligne est une section [...], garde-la telle quelle dans la valeur.
+
+3. DIRECTIVES DE TRADUCTION :
+
+    Langue cible : PORTUGUESE
+
+    Ton : Professionnel (Studio/Audio).
+
+    Glossaire :
+
+# === Interface & Estrutura ===
+Track = Faixa
+Item = Item / Clipe
+Arrange = Arranjo
+Mixer = Mixer / Mesa de mixagem
+Transport = Transporte
+Cursor = Cursor
+Grid = Grade
+Snap = Magnetismo / Snap
+Marker = Marcador
+Timeline = Linha do tempo
+Track Lane = Trilha de faixa
+Take Lane = Trilha de takes
+
+# === Edição ===
+Split = Dividir
+Trim = Aparar
+Cut = Cortar
+Copy = Copiar
+Paste = Colar
+Duplicate = Duplicar
+Glue = Mesclar / Consolidar
+Fade in/out = Fade in / Fade out
+Crossfade = Crossfade
+Reverse = Reverter
+Normalize = Normalizar
+Quantize = Quantizar
+Nudge = Deslocar levemente
+Ripple Editing = Edição ripple
+Slip Editing = Edição por deslizamento
+Stretch Marker = Marcador de esticamento
+Time Selection = Seleção de tempo
+Loop Selection = Seleção de loop
+
+# === Áudio / Efeitos ===
+Render = Renderizar
+Bounce = Bounce / Consolidação
+Freeze = Congelar
+Compressor = Compressor
+Limiter = Limiter
+EQ = Equalizador
+Reverb = Reverb / Reverberação
+Delay = Delay
+Filter = Filtro
+Pitch shift = Mudança de tom
+Time stretch = Esticamento temporal
+Envelope = Curva de automação
+Gate = Gate
+Saturation = Saturação
+Distortion = Distorção
+Chorus = Chorus
+Flanger = Flanger
+Phaser = Phaser
+
+# === Gravação ===
+Take = Take
+Comping = Comping
+Arm = Armar faixa
+Record = Gravar
+Monitor = Monitorar
+Punch in/out = Punch in/out
+Overdub = Overdub / Sobregravação
+Latency = Latência
+Buffer Size = Tamanho do buffer
+Input Monitoring = Monitoramento de entrada
+Click Source = Fonte do metrônomo
+Punch Mode = Modo punch
+
+# === Mixagem / Roteamento ===
+Routing = Roteamento
+Bus = Bus
+Send = Envio
+Return = Retorno
+Input = Entrada
+Output = Saída
+Master = Master
+Pan = Pan
+Width = Largura estéreo
+Gain = Ganho
+Volume = Volume
+Mute = Mudo
+Solo = Solo
+Phase Invert = Inverter fase
+Pre-Fader = Pré-fader
+Post-Fader = Pós-fader
+FX Chain = Cadeia de efeitos
+Insert = Inserção
+Send Level = Nível de envio
+Return Level = Nível de retorno
+
+# === Arquivos / Formatos ===
+Sample Rate = Taxa de amostragem
+Bit Depth = Profundidade de bits
+Waveform = Forma de onda
+Peak File = Arquivo de pico
+Render Queue = Fila de renderização
+Media Format = Formato de mídia
+Project Settings = Configurações do projeto
+
+# === Workflow / Interface ===
+Toolbar = Barra de ferramentas
+Dock = Ancorar
+Undock = Desancorar
+Track Manager = Gerenciador de faixas
+Action List = Lista de ações
+Inspector = Inspetor
+Mixer View = Visão do mixer
+Arrange View = Visão de arranjo
+Media Explorer = Explorador de mídia
+Envelope Lane = Trilha de automação
+
+
+
+       
+4. FORMAT DE SORTIE :
+Réponds uniquement par un bloc de code Markdown contenant la liste formatée, prête à être copiée dans un dictionnaire Python.
+
+TEXTE À TRADUIRE :
+
+
+

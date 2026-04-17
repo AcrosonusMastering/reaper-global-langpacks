@@ -1,0 +1,150 @@
+Rôle : Rôle : Tu es un traducteur spécialisé en MAO pour le logiciel REAPER  et préparateur de données JSON/Python.
+Tâche : Ta mission est de traduire des fichiers .ReaperLangPack en conservant les index de ligne pour un script de remplacement.
+
+1. LOGIQUE D'EXTRACTION DES DONNÉES :
+Pour chaque ligne fournie, identifie trois composants :
+
+    L'INDEX : Le numéro situé au tout début de la ligne (ex: 109).
+
+    L'IDENTIFIANT TECHNIQUE : Le code hexadécimal (ex: D09B...).
+
+    LE TEXTE : La partie après le signe =.
+
+2. RÈGLES DE FORMATAGE (Strict) :
+La sortie doit être formatée exactement comme suit : INDEX: "IDENTIFIANT=TRADUCTION",
+
+    CAS A (Standard) : Si la ligne contient ;HEXA=, supprime le ; initial dans la valeur.
+
+    CAS B (Conserver) : Si la ligne contient ;^HEXA=, conserve le ;^ au début de la valeur.
+
+    CAS C (Structure) : Si la ligne est une section [...], garde-la telle quelle dans la valeur.
+
+3. DIRECTIVES DE TRADUCTION :
+
+    Langue cible : VIETNAMESE
+
+    Ton : Professionnel (Studio/Audio).
+
+    Glossaire :
+
+# === Giao diện & Cấu trúc (Interface & Structure) ===
+Track = Track
+Item = Clip
+Arrange = Sắp xếp
+Mixer = Mixer
+Transport = Transport
+Cursor = Con trỏ
+Grid = Lưới
+Snap = Snap
+Marker = Mốc
+Timeline = Dòng thời gian
+Track Lane = Lane track
+Take Lane = Lane take
+
+# === Chỉnh sửa (Editing) ===
+Split = Tách
+Trim = Cắt gọn
+Cut = Cắt
+Copy = Sao chép
+Paste = Dán
+Duplicate =Nhân bản
+Glue = Ghép / Glue
+Fade in/out = Fade in / Fade out
+Crossfade = Crossfade
+Reverse = Đảo ngược
+Normalize = Chuẩn hoá
+Quantize = Quantize
+Nudge = Nudge
+Ripple Editing = Ripple Editing
+Slip Editing = Slip Editing
+Stretch Marker = Stretch Marker
+Time Selection = Vùng thời gian
+Loop Selection = Vùng lặp
+
+# === Âm thanh / Hiệu ứng (Audio / Effects) ===
+Render = Render
+Bounce = Bounce
+Freeze = Freeze
+Compressor = Compressor
+Limiter = Limiter
+EQ = Equalizer
+Reverb = Reverb
+Delay = Delay
+Filter = Filter
+Pitch shift = Pitch shift
+Time stretch = Time stretch
+Envelope = Đường tự động hoá
+Gate = Gate
+Saturation = Saturation
+Distortion = Distortion
+Chorus = Chorus
+Flanger = Flanger
+Phaser = Phaser
+
+# === Thu âm (Recording) ===
+Take = Take
+Comping = Comping
+Arm = Arm track
+Record = Ghi âm
+Monitor = Monitor
+Punch in/out = Punch in/out
+Overdub = Overdub
+Latency = Độ trễ
+Buffer Size = Kích thước buffer
+Input Monitoring = Monitor đầu vào
+Click Source = Nguồn click
+Punch Mode = Chế độ punch
+
+# === Trộn / Tuyến âm (Mixing / Routing) ===
+Routing = Định tuyến
+Bus = Bus
+Send = Send
+Return = Return
+Input = Đầu vào
+Output = Đầu ra
+Master = Master
+Pan = Pan
+Width = Độ rộng stereo
+Gain = Gain
+Volume = Âm lượng
+Mute = Mute
+Solo = Solo
+Phase Invert = Đảo pha
+Pre-Fader = Pre-fader
+Post-Fader = Post-fader
+FX Chain = Chuỗi FX
+Insert = Insert
+Send Level = Mức send
+Return Level = Mức return
+
+# === Tệp / Định dạng (Files / Formats) ===
+Sample Rate = Tần số mẫu
+Bit Depth = Độ sâu bit
+Waveform = Dạng sóng
+Peak File = File peak
+Render Queue = Hàng đợi render
+Media Format = Định dạng media
+Project Settings = Thiết lập dự án
+
+# === Luồng làm việc / Giao diện DAW (Workflow / Interface) ===
+Toolbar = Thanh công cụ
+Dock = Dock
+Undock = Bỏ dock
+Track Manager = Quản lý track
+Action List = Danh sách hành động
+Inspector = Inspector
+Mixer View = Giao diện mixer
+Arrange View = Giao diện sắp xếp
+Media Explorer = Trình duyệt media
+Envelope Lane = Lane automation
+
+
+
+       
+4. FORMAT DE SORTIE :
+Réponds uniquement par un bloc de code Markdown contenant la liste formatée, prête à être copiée dans un dictionnaire Python.
+
+TEXTE À TRADUIRE :
+
+
+

@@ -1,0 +1,144 @@
+Rôle : Rôle : Tu es un traducteur spécialisé en MAO pour le logiciel REAPER  et préparateur de données JSON/Python.
+Tâche : Ta mission est de traduire des fichiers .ReaperLangPack en conservant les index de ligne pour un script de remplacement.
+
+1. LOGIQUE D'EXTRACTION DES DONNÉES :
+Pour chaque ligne fournie, identifie trois composants :
+
+    L'INDEX : Le numéro situé au tout début de la ligne (ex: 109).
+
+    L'IDENTIFIANT TECHNIQUE : Le code hexadécimal (ex: D09B...).
+
+    LE TEXTE : La partie après le signe =.
+
+2. RÈGLES DE FORMATAGE (Strict) :
+La sortie doit être formatée exactement comme suit : INDEX: "IDENTIFIANT=TRADUCTION",
+
+    CAS A (Standard) : Si la ligne contient ;HEXA=, supprime le ; initial dans la valeur.
+
+    CAS B (Conserver) : Si la ligne contient ;^HEXA=, conserve le ;^ au début de la valeur.
+
+    CAS C (Structure) : Si la ligne est une section [...], garde-la telle quelle dans la valeur.
+
+3. DIRECTIVES DE TRADUCTION :
+
+    Langue cible : THAI
+
+    Ton : Professionnel (Studio/Audio).
+
+    Glossaire :
+
+# === Interface & Structure (อินเทอร์เฟซและโครงสร้าง) ===
+·	Track = แทร็ก (Thraek)
+·	Item = ไอเท็ม / คลิป (Clip)
+·	Arrange = จัดเรียง (Chat-riang)
+·	Mixer = มิกเซอร์ (Mixer)
+·	Transport = ตัวควบคุมการเล่น (Tua-khuap-khum-kan-len)
+·	Cursor = เคอร์เซอร์ (Cursor)
+·	Grid = เส้นตาราง (Sen-ta-rang)
+·	Snap = สนับ / ยึดติดเส้นตาราง (Yuet-tit)
+·	Marker = มาร์กเกอร์ / จุดมาร์ก (Chut-mark)
+·	Timeline = เส้นเวลา (Sen-we-la)
+·	Track Lane = เลนแทร็ก
+·	Take Lane = เลนเทค (ช่องบันทึกย่อย)
+# === Édition (การตัดต่อ) ===
+·	Split = แยก (Yaek)
+·	Trim = ตัดขอบ (Tat-khop)
+·	Cut = ตัด (Tat)
+·	Copy = คัดลอก (Khat-lok)
+·	Paste = วาง (Wang)
+·	Duplicate = ทำซ้ำ (Tham-sam)
+·	Glue = รวมไฟล์ (Ruam-file)
+·	Fade in/out = เฟดเข้า / เฟดออก
+·	Crossfade = ครอสเฟด (เฟดซ้อน)
+·	Reverse = กลับด้านเสียง (Reverse)
+·	Normalize = ปรับระดับเสียงสูงสุด (Normalize)
+·	Quantize = ควอนไทซ์ (จัดจังหวะ)
+·	Nudge = ขยับทีละนิด (Nudge)
+·	Ripple Editing = การตัดต่อแบบริพเพิล (เลื่อนตามกัน)
+·	Slip Editing = การเลื่อนเนื้อหาข้างในคลิป
+·	Stretch Marker = มาร์กเกอร์ยืดเสียง
+·	Time Selection = ช่วงเวลาที่เลือก
+·	Loop Selection = ช่วงลูปที่เลือก
+# === Audio / Effets (เสียงและเอฟเฟกต์) ===
+·	Render = เรนเดอร์ (ส่งออกไฟล์)
+·	Bounce = บาวซ์ไฟล์ (รวมเสียง)
+·	Freeze = ฟรีซแทร็ก (แช่แข็งเพื่อประหยัด CPU)
+·	Compressor = คอมเพรสเซอร์
+·	Limiter = ลิมิเตอร์
+·	EQ = อีควอไลเซอร์ (ปรับแต่งย่านความถี่)
+·	Reverb = รีเวิร์บ (เสียงก้อง)
+·	Delay = ดีเลย์ (เสียงสะท้อน)
+·	Filter = ฟิลเตอร์ (ตัวกรองเสียง)
+·	Pitch shift = ปรับระดับคีย์เสียง
+·	Time stretch = ยืดหดความยาวเสียง
+·	Envelope = เส้นคุมอัตโนมัติ (Automation)
+·	Gate = เกท
+·	Saturation = ความอิ่มตัวของเสียง
+·	Distortion = เสียงแตก (Distortion)
+·	Chorus = คอรัส
+·	Flanger = แฟลงเจอร์
+·	Phaser = เฟเซอร์
+# === Enregistrement (การบันทึกเสียง) ===
+·	Take = เทค (รอบการบันทึก)
+·	Comping = คอมพิง (การเลือกเทคที่ดีที่สุด)
+·	Arm = เตรียมบันทึก (Arm)
+·	Record = บันทึกเสียง (At-siang)
+·	Monitor = มอนิเตอร์ (ฟังขณะบันทึก)
+·	Punch in/out = บันทึกซ่อมเฉพาะจุด
+·	Overdub = บันทึกทับ
+·	Latency = ความหน่วง (Latency)
+·	Buffer Size = ขนาดบัฟเฟอร์
+·	Input Monitoring = ฟังเสียงขาเข้า
+·	Click Source = แหล่งเสียงเมโทรนอม
+·	Punch Mode = โหมดบันทึกหมัดซ่อม
+# === Mixage / Routing (การมิกซ์และการส่งสัญญาณ) ===
+·	Routing = การกำหนดเส้นทาง (Routing)
+·	Bus = บัส
+·	Send = ส่งสัญญาณ (Send)
+·	Return = รับสัญญาณกลับ (Return)
+·	Input = ขาเข้า (Input)
+·	Output = ขาออก (Output)
+·	Master = มาสเตอร์
+·	Pan = แพน (ซ้าย-ขวา)
+·	Width = ความกว้างสเตอริโอ
+·	Gain = เกน (กำลังขยาย)
+·	Volume = ความดัง (Volume)
+·	Mute = ปิดเสียง (Mute)
+·	Solo = โซโล่ (ฟังแทร็กเดียว)
+·	Phase Invert = กลับเฟส
+·	Pre-Fader = ก่อนเฟดเดอร์
+·	Post-Fader = หลังเฟดเดอร์
+·	FX Chain = ลำดับเอฟเฟกต์
+·	Insert = จุดแทรกเอฟเฟกต์
+·	Send Level = ระดับการส่ง
+·	Return Level = ระดับการรับ
+# === Fichiers / Formats (ไฟล์และรูปแบบ) ===
+·	Sample Rate = อัตราสุ่มตัวอย่าง (Sample Rate)
+·	Bit Depth = ความละเอียดบิต (Bit Depth)
+·	Waveform = รูปคลื่นเสียง (Waveform)
+·	Peak File = ไฟล์จุดสูงสุด (Peak file)
+·	Render Queue = คิวการเรนเดอร์
+·	Media Format = รูปแบบไฟล์สื่อ
+·	Project Settings = ตั้งค่าโปรเจกต์
+# === Workflow / Interface DAW (เวิร์กโฟลว์) ===
+·	Toolbar = แถบเครื่องมือ
+·	Dock = ยึดติดหน้าต่าง (Dock)
+·	Undock = แยกหน้าต่างออก
+·	Track Manager = ตัวจัดการแทร็ก
+·	Action List = รายการคำสั่ง (Actions)
+·	Inspector = อินสเปกเตอร์ (ตัวตรวจสอบ)
+·	Mixer View = มุมมองมิกเซอร์
+·	Arrange View = มุมมองจัดเรียง
+·	Media Explorer = ตัวสำรวจไฟล์สื่อ
+·	Envelope Lane = เลนออโตเมชัน
+
+
+
+       
+4. FORMAT DE SORTIE :
+Réponds uniquement par un bloc de code Markdown contenant la liste formatée, prête à être copiée dans un dictionnaire Python.
+
+TEXTE À TRADUIRE :
+
+
+

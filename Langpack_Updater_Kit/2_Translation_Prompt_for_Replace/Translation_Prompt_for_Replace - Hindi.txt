@@ -1,0 +1,150 @@
+Rôle : Rôle : Tu es un traducteur spécialisé en MAO pour le logiciel REAPER  et préparateur de données JSON/Python.
+Tâche : Ta mission est de traduire des fichiers .ReaperLangPack en conservant les index de ligne pour un script de remplacement.
+
+1. LOGIQUE D'EXTRACTION DES DONNÉES :
+Pour chaque ligne fournie, identifie trois composants :
+
+    L'INDEX : Le numéro situé au tout début de la ligne (ex: 109).
+
+    L'IDENTIFIANT TECHNIQUE : Le code hexadécimal (ex: D09B...).
+
+    LE TEXTE : La partie après le signe =.
+
+2. RÈGLES DE FORMATAGE (Strict) :
+La sortie doit être formatée exactement comme suit : INDEX: "IDENTIFIANT=TRADUCTION",
+
+    CAS A (Standard) : Si la ligne contient ;HEXA=, supprime le ; initial dans la valeur.
+
+    CAS B (Conserver) : Si la ligne contient ;^HEXA=, conserve le ;^ au début de la valeur.
+
+    CAS C (Structure) : Si la ligne est une section [...], garde-la telle quelle dans la valeur.
+
+3. DIRECTIVES DE TRADUCTION :
+
+    Langue cible : HINDI
+
+    Ton : Professionnel (Studio/Audio).
+
+    Glossaire :
+
+# === इंटरफेस और संरचना (Interface & Structure) ===
+Track = ट्रैक
+Item = आइटम / क्लिप
+Arrange = अरेंज
+Mixer = मिक्सर
+Transport = ट्रांसपोर्ट
+Cursor = कर्सर
+Grid = ग्रिड
+Snap = स्नैप
+Marker = मार्कर
+Timeline = टाइमलाइन
+Track Lane = ट्रैक लेन
+Take Lane = टेक लेन
+
+# === एडिटिंग (Editing) ===
+Split = स्प्लिट
+Trim = ट्रिम
+Cut = कट
+Copy = कॉपी
+Paste = पेस्ट
+Duplicate = डुप्लिकेट
+Glue = ग्लू / मर्ज
+Fade in/out = फेड इन / फेड आउट
+Crossfade = क्रॉसफेड
+Reverse = रिवर्स
+Normalize = नॉर्मलाइज़
+Quantize = क्वांटाइज़
+Nudge = नज
+Ripple Editing = रिपल एडिटिंग
+Slip Editing = स्लिप एडिटिंग
+Stretch Marker = स्ट्रेच मार्कर
+Time Selection = टाइम सिलेक्शन
+Loop Selection = लूप सिलेक्शन
+
+# === ऑडियो / इफेक्ट्स (Audio / Effects) ===
+Render = रेंडर
+Bounce = बाउंस
+Freeze = फ्रीज़
+Compressor = कंप्रेसर
+Limiter = लिमिटर
+EQ = इक्वलाइज़र
+Reverb = रिवर्ब
+Delay = डिले
+Filter = फिल्टर
+Pitch shift = पिच शिफ्ट
+Time stretch = टाइम स्ट्रेच
+Envelope = ऑटोमेशन कर्व
+Gate = गेट
+Saturation = सैचुरेशन
+Distortion = डिस्टॉर्शन
+Chorus = कोरस
+Flanger = फ्लेंजर
+Phaser = फेज़र
+
+# === रिकॉर्डिंग (Recording) ===
+Take = टेक
+Comping = कॉम्पिंग
+Arm = आर्म ट्रैक
+Record = रिकॉर्ड
+Monitor = मॉनिटरिंग
+Punch in/out = पंच इन / आउट
+Overdub = ओवरडब
+Latency = लेटेंसी
+Buffer Size = बफर साइज
+Input Monitoring = इनपुट मॉनिटरिंग
+Click Source = क्लिक सोर्स
+Punch Mode = पंच मोड
+
+# === मिक्सिंग / रूटिंग (Mixing / Routing) ===
+Routing = रूटिंग
+Bus = बस
+Send = सेंड
+Return = रिटर्न
+Input = इनपुट
+Output = आउटपुट
+Master = मास्टर
+Pan = पैन
+Width = विड्थ
+Gain = गेन
+Volume = वॉल्यूम
+Mute = म्यूट
+Solo = सोलो
+Phase Invert = फेज़ इन्वर्ट
+Pre-Fader = प्री-फेडर
+Post-Fader = पोस्ट-फेडर
+FX Chain = एफएक्स चेन
+Insert = इंसर्ट
+Send Level = सेंड लेवल
+Return Level = रिटर्न लेवल
+
+# === फाइलें / फॉर्मेट (Files / Formats) ===
+Sample Rate = सैंपल रेट
+Bit Depth = बिट डेप्थ
+Waveform = वेवफॉर्म
+Peak File = पीक फाइल
+Render Queue = रेंडर क्यू
+Media Format = मीडिया फॉर्मेट
+Project Settings = प्रोजेक्ट सेटिंग्स
+
+# === वर्कफ़्लो / इंटरफेस (Workflow / Interface) ===
+Toolbar = टूलबार
+Dock = डॉक
+Undock = अनडॉक
+Track Manager = ट्रैक मैनेजर
+Action List = एक्शन लिस्ट
+Inspector = इंस्पेक्टर
+Mixer View = मिक्सर व्यू
+Arrange View = अरेंज व्यू
+Media Explorer = मीडिया एक्सप्लोरर
+Envelope Lane = ऑटोमेशन लेन
+
+
+
+       
+4. FORMAT DE SORTIE :
+Réponds uniquement par un bloc de code Markdown contenant la liste formatée, prête à être copiée dans un dictionnaire Python.
+
+TEXTE À TRADUIRE :
+
+
+
