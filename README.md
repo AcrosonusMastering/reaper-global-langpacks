@@ -2,6 +2,18 @@
 ([https://github.com/ton-pseudo/ton-repo/releases/latest](https://github.com/AcrosonusMastering/reaper-global-langpacks/releases/tag/1.0.0))
 Arabic, Punjabi, Bengali, Hindi, Thai, Vietnamese, Chinese (Simplified & Traditional), Japanese, Korean, French, Spanish, Italian, Portuguese / Brazilian, Turkish, Swahili, Indonesian, Klingon (Special bonus for the community!)
 
+IF YOU GET ISSUE FOR USE PYTHON CODE
+Run from the command line (Without modifying the code)
+If you don't want to touch the code, you need to force the console to open in the correct folder.
+
+    In your File Explorer (where you see all your languages), click in the address bar at the top (where your folder path is).
+
+    Delete the text, simply type cmd, and press Enter. This will open a black command prompt already set to the right folder.
+
+    Type the following command and press Enter:
+python 1_Script_Reaper_Merger.py
+
+
 ________________________________________
 💬 Support the Project (Without Money)
 *I don’t have a “buy me a coffee” page…
