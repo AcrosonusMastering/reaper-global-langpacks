@@ -5,7 +5,7 @@ Arabic, Punjabi, Bengali, Hindi, Thai, Vietnamese, Chinese (Simplified & Traditi
 For the UPDATER KIT
 IF YOU GET ISSUE FOR USE PYTHON CODE
 Run from the command line (Without modifying the code)
-If you don't want to touch the code, you need to force the console to open in the correct folder.
+you need to force the console to open in the correct folder.
 
     In your File Explorer (where you see all your languages), click in the address bar at the top (where your folder path is).
 
