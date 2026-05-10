@@ -1,9 +1,13 @@
-### 📥 To download the language packs (clean+SWS) (Go on the official reaper website: https://stash.reaper.fm/tag/Language-Packs )
+### 📥 To download the language packs (clean+SWS)
+
+(Go on the official reaper website: https://stash.reaper.fm/tag/Language-Packs )
 
 Arabic, Punjabi, Bengali, Hindi, Thai, Vietnamese, Chinese (Simplified & Traditional), Japanese, Korean, French, Spanish, Italian, Portuguese / Brazilian, Turkish, Swahili, Indonesian, Klingon (Special bonus for the community!)
 
 For the UPDATER KIT
+
 IF YOU GET ISSUE FOR USE PYTHON CODE
+
 Run from the command line (Without modifying the code)
 you need to force the console to open in the correct folder.
 
