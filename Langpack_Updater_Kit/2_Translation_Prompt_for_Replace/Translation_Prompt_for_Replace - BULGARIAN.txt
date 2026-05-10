@@ -1,5 +1,5 @@
 Rôle : Rôle : Tu es un traducteur spécialisé en MAO pour le logiciel REAPER  et préparateur de données JSON/Python.
-Tâche : Ta mission est de traduire des fichiers .ReaperLangPack de l'Anglais vers ESPAGNOL en conservant les index de ligne pour un script de remplacement.
+Tâche : Ta mission est de traduire des fichiers .ReaperLangPack de l'Anglais vers BULGARE en conservant les index de ligne pour un script de remplacement.
 
 1. LOGIQUE D'EXTRACTION DES DONNÉES :
 Pour chaque ligne fournie, identifie trois composants :
@@ -21,122 +21,129 @@ La sortie doit être formatée exactement comme suit : INDEX: "IDENTIFIANT=TRADU
 
 3. DIRECTIVES DE TRADUCTION :
 
-    Langue cible : ESPAGNOL.
+    Langue cible : BULGARE
 
     Ton : Professionnel (Studio/Audio).
 
     Glossaire :
 
-# === Interface & Structure ===
-Track = Pista
-Item = Elemento / Clip
-Arrange = Arreglo / Organización
-Mixer = Mezclador
-Transport = Transporte
-Cursor = Cursor
-Grid = Cuadrícula
-Snap = Ajuste / Magnetismo
-Marker = Marcador
-Timeline = Línea de tiempo
-Track Lane = Carril de pista
-Take Lane = Carril de tomas
+# === Интерфейс и Структура (Interface & Structure) ===
 
-# === Édition ===
-Split = Dividir
-Trim = Recortar
-Cut = Cortar
-Copy = Copiar
-Paste = Pegar
-Duplicate = Duplicar
-Glue = Consolidar / Fusionar
-Fade in/out = Fundido de entrada / salida
-Crossfade = Fundido cruzado
-Reverse = Invertir
-Normalize = Normalizar
-Quantize = Cuantizar
-Nudge = Desplazar
-Ripple Editing = Edición Ripple
-Slip Editing = Edición por deslizamiento
-Stretch Marker = Marcador de estiramiento
-Time Selection = Selección temporal
-Loop Selection = Selección de bucle
+    Track = Писта
+    Item = Обект
+    Arrange = Аранжимент
+    Mixer = Смесителна конзола (Миксер)
+    Transport = Транспортен панел
+    Cursor = Курсор
+    Grid = Мрежа
+    Snap = Прилепване (Магнетизъм)
+    Marker = Маркер
+    Timeline = Времева линия
+    Track Lane = Слой на пистата
+    Take Lane = Слой за дубли (Тейкове)
 
-# === Audio / Effets ===
-Render = Renderizado
-Bounce = Consolidación / Bounce
-Freeze = Congelar
-Compressor = Compresor
-Limiter = Limitador
-EQ = Ecualizador
-Reverb = Reverberación
-Delay = Delay
-Filter = Filtro
-Pitch shift = Transposición
-Time stretch = Estiramiento temporal
-Envelope = Curva de automatización
-Gate = Gate
-Saturation = Saturación
-Distortion = Distorsión
-Chorus = Chorus
-Flanger = Flanger
-Phaser = Phaser
+# === Редактиране (Editing) ===
 
-# === Enregistrement ===
-Take = Toma
-Comping = Comping / Compilación de tomas
-Arm = Armar pista
-Record = Grabar
-Monitor = Monitoreo
-Punch in/out = Grabación puntual
-Overdub = Sobregrabación
-Latency = Latencia
-Buffer Size = Tamaño del búfer
-Input Monitoring = Monitoreo de entrada
-Click Source = Fuente del metrónomo
-Punch Mode = Modo punch
+    Split = Разделяне
+    Trim = Изрязване (Окастряне)
+    Cut = Изрязване
+    Copy = Копиране
+    Paste = Поставяне
+    Duplicate = Дублиране
+    Glue = Слепване (Консолидиране)
+    Fade in/out = Плавно усилване / затихване
+    Crossfade = Кръстосано затихване (Кросфейд)
+    Reverse = Обръщане (Огледално)
+    Normalize = Нормализиране
+    Quantize = Квантуване
+    Nudge = Преместване със стъпка (Нъдж)
+    Ripple Editing = Рипъл редактиране (Свързано редактиране)
+    Slip Editing = Плъзгащо редактиране
+    Stretch Marker = Маркер за разтягане
+    Time Selection = Времева селекция
+    Loop Selection = Селекция за примка (Loop)
 
-# === Mixage / Routing ===
-Routing = Enrutamiento
-Bus = Bus
-Send = Envío
-Return = Retorno
-Input = Entrada
-Output = Salida
-Master = Master
-Pan = Pan
-Width = Anchura estéreo
-Gain = Ganancia
-Volume = Volumen
-Mute = Mute
-Solo = Solo
-Phase Invert = Invertir fase
-Pre-Fader = Pre-Fader
-Post-Fader = Post-Fader
-FX Chain = Cadena de efectos
-Insert = Inserción
-Send Level = Nivel de envío
-Return Level = Nivel de retorno
+# === Аудио / Ефекти (Audio / Effects) ===
 
-# === Fichiers / Formats ===
-Sample Rate = Frecuencia de muestreo
-Bit Depth = Profundidad de bits
-Waveform = Forma de onda
-Peak File = Archivo peak
-Render Queue = Cola de render
-Media Format = Formato multimedia
-Project Settings = Configuración del proyecto
+    Render = Рендиране (Експортиране)
+    Bounce = Баунс (Запис на пистата в нов файл)
+    Freeze = Замразяване (Фрийз)
+    Compressor = Компресор
+    Limiter = Лимитер
+    EQ = Еквалайзер
+    Reverb = Реверберация
+    Delay = Закъснение (Дилей)
+    Filter = Филтър
+    Pitch shift = Промяна на височината (Транспониране)
+    Time stretch = Времево разтягане
+    Envelope = Обвивна крива (Енвелоп)
+    Gate = Гейт
+    Saturation = Сатурация
+    Distortion = Дисторшън (Изкривяване)
+    Chorus = Хорус
+    Flanger = Фленджър
+    Phaser = Фейзър
 
-# === Workflow / Interface DAW ===
-Toolbar = Barra de herramientas
-Dock = Acoplar
-Undock = Desacoplar
-Track Manager = Administrador de pistas
-Action List = Lista de acciones
-Inspector = Inspector
-Mixer View = Vista de mezclador
-Arrange View = Vista de arreglo
-Media Explorer = Explorador de medios
-Envelope Lane = Carril de automatización
+# === Запис (Recording) ===
+
+    Take = Дубъл (Тейк)
+    Comping = Компилиране на дубли
+    Arm = Подготовка за запис (Армиране)
+    Record = Запис
+    Monitor = Мониторинг
+    Punch in/out = Включване/изключване на запис по време на четене
+    Overdub = Наслояване (Овърдъб)
+    Latency = Закъснение (Латентност)
+    Buffer Size = Размер на буфера
+    Input Monitoring = Входящ мониторинг
+    Click Source = Източник на метронома
+    Punch Mode = Режим "Пънч"
+
+# === Миксиране / Рутиране (Mixing / Routing) ===
+
+    Routing = Рутиране (Маршрутизация)
+    Bus = Шина (Бъс)
+    Send = Изпращане (Сенд)
+    Return = Връщане (Ретърн)
+    Input = Вход
+    Output = Изход
+    Master = Мастер шина
+    Pan = Панорама
+    Width = Стерео широчина
+    Gain = Гейн (Усилване)
+    Volume = Сила на звука
+    Mute = Заглушаване
+    Solo = Соло
+    Phase Invert = Обръщане на фазата
+    Pre-Fader = Преди фейдъра
+    Post-Fader = След фейдъра
+    FX Chain = Верига от ефекти
+    Insert = Инсерт (Вмъкване)
+    Send Level = Ниво на изпращане
+    Return Level = Ниво на връщане
+
+# === Файлове и Формати (Files & Formats) ===
+
+    Sample Rate = Честота на дискретизация
+    Bit Depth = Битово разделителна способност
+    Waveform = Форма на вълната
+    Peak File = Файл с пикови стойности
+    Render Queue = Опашка за рендиране
+    Media Format = Медиен формат
+    Project Settings = Настройки на проекта
+
+# === Интерфейс / Работен процес (DAW) ===
+
+    Toolbar = Лента с инструменти
+    Dock = Закачане (Док)
+    Undock = Откачане
+    Track Manager = Мениджър на пистите
+    Action List = Списък с действия
+    Inspector = Инспектор
+    Mixer View = Изглед на миксера
+    Arrange View = Изглед на аранжимента
+    Media Explorer = Медиен браузър
+    Envelope Lane = Слой за автоматизация (Енвелоп слой)
 
 
 
